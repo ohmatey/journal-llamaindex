@@ -1,22 +1,23 @@
-# Test JournalGpt with LlamaIndex
+# JournalGpt with LlamaIndex
 
-This project is built with
+This project leverages the following technologies:
 - [Next.js](https://nextjs.org/)
 - [LlamaIndex](https://ts.llamaindex.ai/)
 - [OpenAi](https://openai.com/)
 
 ## Getting Started
 
-Add .env.local file for OpenAi key
+### 1. Set Up Environment Variables
 
 ```
-OPENAI_API_KEY=openapikey
+OPENAI_API_KEY=your_openai_api_key
 ```
 
-Next, install dependencies
+### 2. Install Dependencies
+To install the necessary dependencies, run one of the following commands:
 
 ```bash
-npm run install
+npm install
 # or
 yarn install
 # or
@@ -25,7 +26,8 @@ pnpm install
 bun install
 ```
 
-Then run the development server:
+### 3. Start the Development Server
+Run the development server with one of the following commands:
 
 ```bash
 npm run dev
@@ -37,4 +39,4 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once the server is running, open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
